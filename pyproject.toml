@@ -1,0 +1,10 @@
+[project]
+name = "bominator"
+version = "0.1.0"
+description = "Add the BOM to a CSV before opening it in Excel"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "nuitka",
+    "ruff>=0.14.5",
+]
